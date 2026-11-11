@@ -1,467 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>John Doe || Home</title>
-    <!-- font-awesome -->
-    <link
-      rel="stylesheet"
-      href="./fontawesome-free-5.12.1-web/css/all.min.css"
-    />
-    <!-- css -->
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <!-- navbar -->
-     <nav class="nav" id="nav">
-      <div class="nav-center">
-        <!-- nav header -->
-         <div class="nav-header">
-          <img src="./image/logo.svg" class="nav-logo" alt="nav-logo">
-          <button class="nav-btn" id="nav-btn">
-            <i class="fas fa-bars"></i>
-          </button>
-         </div>
-        <!-- nav links -->
-         <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">about</a></li>
-          <li><a href="projects.html">projects</a></li>
-          <li><a href="contact.html">contact</a></li>
-         </ul>
-        </div>
-     </nav>
-
-    <!-- end of navbar -->
-    <!-- sidebar -->
-     <aside class="sidebar" id="sidebar">
-      <div>
-        <button class="close-btn" id="close-btn">
-          <i class="fas fa-times"></i>
-        </button>
-         <!-- sidebar links -->
-         <ul class="sidebar-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">about</a></li>
-          <li><a href="projects.html">projects</a></li>
-          <li><a href="contact.html">contact</a></li>
-         </ul>
-         <!-- social icons-->
-          <ul class="social-icons">
-            <li><a href="https://www.twitter.com" class="social-icon">
-              <i class="fab fa-facebook"></i>
-            </a></li>
-
-            <li><a href="https://www.twitter.com" class="social-icon">
-              <i class="fab fa-linkedin"></i>
-            </a></li>
-
-            <li><a href="https://www.twitter.com" class="social-icon">
-              <i class="fab fa-squarespace"></i>
-            </a></li>
-
-            <li><a href="https://www.twitter.com" class="social-icon">
-              <i class="fab fa-instagram"></i>
-            </a></li>
-          </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tobi Adedoyin is a full-stack web developer building responsive web experiences, backend APIs, and practical software projects." />
+  <title>Tobi Adedoyin | Full-Stack Web Developer</title>
+  <link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.min.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <nav class="nav" id="nav">
+    <div class="nav-center">
+      <div class="nav-header">
+        <img src="./image/logo.svg" class="nav-logo" alt="Tobi Adedoyin logo" />
+        <button class="nav-btn" id="nav-btn" aria-label="Open navigation"><i class="fas fa-bars"></i></button>
       </div>
-     </aside>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li><li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <aside class="sidebar" id="sidebar">
+    <div>
+      <button class="close-btn" id="close-btn" aria-label="Close navigation"><i class="fas fa-times"></i></button>
+      <ul class="sidebar-links">
+        <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li><li><a href="contact.html">Contact</a></li>
+      </ul>
+      <ul class="social-icons">
+        <li><a href="https://github.com/Adedoyinjr" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/tobi-isaac-24bab419a/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+  </aside>
 
-    <!-- end of sidebar -->
-    <!-- header -->
-   <header class="hero">
+  <header class="hero">
     <div class="section-center hero-center">
-    
-    <article class="hero-info">
-      <div class="underline"></div>
-      <h1>i'm tobi.</h1>
-      <h4>full stack web developer.</h4>
-      <a href="contact.html" class="btn">hire me</a>
-      <!-- social icons-->
-          <ul class="social-icons hero-icons">
-            <li><a href="https://www.twitter.com" class="social-icon">
-              <i class="fab fa-facebook"></i>
-            </a></li>
-
-            <li><a href="https://www.twitter.com" class="social-icon">
-              <i class="fab fa-linkedin"></i>
-            </a></li>
-
-            <li><a href="https://www.twitter.com" class="social-icon">
-              <i class="fab fa-squarespace"></i>
-            </a></li>
-
-            <li><a href="https://www.twitter.com" class="social-icon">
-              <i class="fab fa-instagram"></i>
-            </a></li>
-          </ul>
-    </article>
-    <article class="hero-img">
-      <img src="./image/image-1.jpg" alt="tobi" class="hero-photo">
-    </article>
+      <article class="hero-info">
+        <div class="underline"></div>
+        <h1>I'm Tobi Adedoyin.</h1>
+        <h4>Full-stack web developer</h4>
+        <p>I build responsive web interfaces and practical backend solutions with JavaScript and modern web technologies.</p>
+        <a href="projects.html" class="btn">view my work</a>
+        <ul class="social-icons hero-icons">
+          <li><a href="https://github.com/Adedoyinjr" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/tobi-isaac-24bab419a/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+      </article>
+      <article class="hero-img"><img src="./image/image-1.jpg" alt="Tobi Adedoyin" class="hero-photo" /></article>
     </div>
   </header>
-    <!-- end of header -->
-    <!-- about -->
-     <section class="section about">
-      <div class="section-center about-center">
-        <!-- about img -->
-         <article class="about-img">
-          <img src="./image/image-2.jpg" alt="tobi img" class="hero-photo">
 
-         </article>
-         <!-- about info -->
-          <article class="about-info">
-            <!-- about title -->
-             <div class="section-title about-title">
-             <h2>about</h2>
-             <div class="underline"></div>
-             </div>
-             <!-- end of about tile -->
-              <p>Hello, I am Tobi Adedoyin and I am a web developer. I live and work in
-  somewhere warm. I spend most of my day, experimenting with HTML, CSS and
-  JavaScript (and its endless list of frameworks). I enjoy coding and the
-  challenge of learning something new everyday. You can also find me at 
-  <a href="#" class="social-icon"><i class="fab fa-linkedin " ></i></a>
-  </p>
-              <a href="about.html" class="btn">about me</a>
-          </article>
-      </div>
-     </section>
-
-    <!-- end of about -->
-    <!-- services -->
-<section class="section bg-gray">
-   <!-- service title -->
-             <div class="section-title ">
-             <h2>services</h2>
-             <div class="underline"></div>
-             </div>
-             <!-- end of title -->
-      <div class="services-center section-center">
-        <!-- single service -->
-         <article class="service">
-          <i class="fas fa-code service-icon"></i>
-          <h4>web development</h4>
-          <div class="underline"></div>
-         <p>I build responsive and functional websites using clean 
-          and well-structured code. 
-          My focus is on performance, 
-          accessibility, and user experience
-           to ensure every website works smoothly across all devices.</p>
-
-         </article>
-         <!-- end of single service -->
-
-         <!-- single service -->
-         <article class="service">
-          <i class="fab fa-sketch service-icon"></i>
-          <h4>web design</h4>
-          <div class="underline"></div>
-          <p>I design modern and user-friendly interfaces that are 
-            visually appealing and easy to navigate. I combine creativity
-             with usability to create layouts that engage users and improve 
-             their overall experience.</p>
-          
-         </article>
-         <!-- end of single service -->
-
-         <!-- single service -->
-         <article class="service">
-          <i class="fab fa-android service-icon"></i>
-          <h4>app design</h4>
-          <div class="underline"></div>
-         <p>I design clean and intuitive mobile app interfaces 
-          that prioritize usability
-           and accessibility. Every design is structured to
-           enhance user interaction and deliver a smooth digital 
-           experience across different screen sizes.</p>
-          
-         </article>
-         <!-- end of single service -->
-      </div>
-</section>
-    <!-- end of services -->
-    <!-- projects -->
-   <section class="section projects">
-     <!-- project title -->
-             <div class="section-title ">
-             <h2>latest works</h2>
-             <div class="underline"></div>
-             <p class="projects-text">A personal portfolio website built with HTML, CSS, and JavaScript. It showcases my skills, services, and projects with a modern and responsive layout. Created to 
-              demonstrate my ability in frontend development.</p>
-             </div>
-             <!-- end of title -->
-              <div class="section-center projects-center">
-                <!-- single project -->
-                       <a href="projects.html" class="project-1">
-                        <article class="project">
-                          <img src="./image/project-3.jpeg" alt="project image" class="project-img"/>
-                          <div class="project-info">
-                            <h4> project title</h4>
-                            <p>client name</p>
-                          </div>
-                        </article>
-                       </a>
-                <!-- end of single project -->
-
-                 <!-- single project -->
-                       <a href="projects.html" class="project-2">
-                        <article class="project">
-                          <img src="./image/project-4.jpeg" alt="project image" class="project-img"/>
-                          <div class="project-info">
-                            <h4> project title</h4>
-                            <p>client name</p>
-                          </div>
-                        </article>
-                       </a>
-                <!-- end of single project -->
-
-                 <!-- single project -->
-                       <a href="projects.html" class="project-3">
-                        <article class="project">
-                          <img src="./image/project-1.jpeg" alt="project image" class="project-img"/>
-                          <div class="project-info">
-                            <h4> project title</h4>
-                            <p>client name</p>
-                          </div>
-                        </article>
-                       </a>
-                <!-- end of single project -->
-
-                  <a href="pr" class="project-4">
-                        <article class="project">
-                          <img src="./image/project-2.jpeg" alt="project image" class="project-img"/>
-                          <div class="project-info">
-                            <h4> project title</h4>
-                            <p>client name</p>
-                          </div>
-                        </article>
-                       </a>
-                <!-- end of single project -->
-              </div>
-
-   </section>
-    <!-- end of projects -->
-    <!-- connect -->
-    <section class="connect">
-      <video 
-      controls 
-      autoplay 
-      muted loop 
-      class="video-container" 
-      poster="./image/project-1.jpeg">
-        <source src="./videos/connect.mp4" type="video/mp4"/>
-        sorry, your browser does not support embedded videos
-      </video>
-      <div class="video-banner">
-        <!-- section title -->
-             <div class="section-title ">
-             <h2>let's get in touch</h2>
-             <div class="underline"></div>
-             </div>
-             <!-- end of title -->
-              <p class="video-text">
-                I’m actively looking for a frontend development internship or entry-level role. If you think I’d be a good fit for your team, don’t hesitate to reach out.
-              </p>
-              <a href="contact.html" class="btn">contact me</a>
-      </div>
-    </section>
-
-    <!-- end of connect -->
-    <!-- skills -->
-
-    <!-- end of skills -->
-    <!-- timeline -->
-  <section class="section timeline">
-    <!-- section-title -->
-    <div class="section-title">
-      <h2>timeline</h2>
-      <div class="underline"></div>
+  <section class="section about">
+    <div class="section-center about-center">
+      <article class="about-img"><img src="./image/image-2.jpg" alt="Tobi working on web development" class="hero-photo" /></article>
+      <article class="about-info">
+        <div class="section-title about-title"><h2>about me</h2><div class="underline"></div></div>
+        <p>I'm a full-stack web developer focused on building useful, maintainable web applications. My work spans frontend development, Node.js backend APIs, database integration, debugging, and testing. I enjoy learning by building and contributing to real software projects.</p>
+        <a href="about.html" class="btn">more about me</a>
+      </article>
     </div>
-    <!-- end of section title -->
-     <div class="section-center timeline-center">
-      <!-- single timeline iterm -->
-       <article class="timeline-item">
-        <h4>2025</h4>
-        <p>I am currently focused on becoming a 
-          professional frontend developer.
-I’m actively looking for internship opportunities 
-to work with real teams and
- improve my skills further..</p>
-        <span class="number">1</span>
-       </article>
-       <!-- end of single item -->
-      <!-- single timeline iterm -->
-       <article class="timeline-item">
-        <h4>2024</h4>
-        <p>I worked on several personal projects
-          This was the year I really started applying my knowledge 
-          and improving my frontend skills.
-        </p>
-        <span class="number">2</span>
-       </article>
-       <!-- end of single item -->
-      <!-- single timeline iterm -->
-       <article class="timeline-item">
-        <h4>2023</h4>
-        <p>This year, I started exploring JavaScript and became more 
-          serious about coding.
-I began building simple web pages, practicing responsive design, and 
-learning problem-solving through tutorials and online resources.</p>
-        <span class="number">3</span>
-       </article>
-       <!-- end of single item -->
-      <!-- single timeline iterm -->
-       <article class="timeline-item">
-        <h4>2022</h4>
-        <p>🎓 2019–2020 — Admission into ADUSTECH
-
-I gained admission into Aliko Dangote University of 
-Science and Technology (ADUSTECH).
-During this period, I started 
-developing interest in technology and became 
-curious about how websites and applications are built.</p>
-        <span class="number">4</span>
-       </article>
-       <!-- end of single item -->
-          
-     </div>
   </section>
-    <!--end of  timeline -->
-    <!-- blog -->
-<section class="section blog">
-  <!-- section title -->
-   <div class="section-title">
-    <h2>blog</h2>
-    <div class="underline"></div>
-    <!-- end of section title -->
-   </div>
-   <div class="section-center blog-center">
-    <!-- single article -->
-     <div class="card">
-      <!-- front card -->
-      <div class="card-side card-front">
-        <img src="./image/project-1.jpeg" alt=""/>
-        <div class="card-info">
-          <h4>article title</h4>
-          <p>Lorem ipsum dolor sit amet consectetur 
-            adipisicing elit.
-            Magnam id dicta, dolores ratione possimus 
-            sed distinctio nihil a iusto hic.</p>
-        <div class="card-footer">
-          <img src="./image/image-1.jpg" alt="author img">
-          <p>7 min read</p>
-        </div>
-        </div>
-      </div>
-      <!-- card back -->
-       <div class="card-side card-back">
-       <button class="btn">read more</button>
-      </div>
-     </div>
-     <!-- end of single card -->
 
-      <!-- single article -->
-     <div class="card">
-      <!-- front card -->
-      <div class="card-side card-front">
-        <img src="./image/project-2.jpeg" alt=""/>
-        <div class="card-info">
-          <h4>article title</h4>
-          <p>Lorem ipsum dolor sit amet consectetur 
-            adipisicing elit.
-            Magnam id dicta, dolores ratione possimus 
-            sed distinctio nihil a iusto hic.</p>
-        <div class="card-footer">
-          <img src="./image/image-1.jpg" alt="author img">
-          <p>7 min read</p>
-        </div>
-        </div>
-      </div>
-      <!-- card back -->
-       <div class="card-side card-back">
-       <button class="btn">read more</button>
-      </div>
-     </div>
-     <!-- end of single card -->
+  <section class="section bg-gray">
+    <div class="section-title"><h2>what i work with</h2><div class="underline"></div></div>
+    <div class="services-center section-center">
+      <article class="service"><i class="fab fa-js service-icon"></i><h4>frontend development</h4><div class="underline"></div><p>Responsive interfaces with HTML, CSS, JavaScript, and attention to usability and accessibility.</p></article>
+      <article class="service"><i class="fas fa-server service-icon"></i><h4>backend development</h4><div class="underline"></div><p>REST APIs and server-side applications using Node.js, Express, and MongoDB.</p></article>
+      <article class="service"><i class="fab fa-github service-icon"></i><h4>engineering workflow</h4><div class="underline"></div><p>Git and GitHub collaboration, debugging, automated tests, and improving existing codebases.</p></article>
+    </div>
+  </section>
 
-      <!-- single article -->
-     <div class="card">
-      <!-- front card -->
-      <div class="card-side card-front">
-        <img src="./image/project-3.jpeg" alt=""/>
-        <div class="card-info">
-          <h4>article title</h4>
-          <p>Lorem ipsum dolor sit amet consectetur 
-            adipisicing elit.
-            Magnam id dicta, dolores ratione possimus 
-            sed distinctio nihil a iusto hic.</p>
-        <div class="card-footer">
-          <img src="./image/image-1.jpg" alt="author img"/>
-          <p>7 min read</p>
-        </div>
-        </div>
-      </div>
-      <!-- card back -->
-       <div class="card-side card-back">
-       <button class="btn">read more</button>
-      </div>
-     </div>
-     <!-- end of single card -->
+  <section class="section projects">
+    <div class="section-title">
+      <h2>selected work</h2><div class="underline"></div>
+      <p class="projects-text">A selection of personal builds, backend practice, and collaborative open-source work.</p>
+    </div>
+    <div class="section-center projects-center">
+      <a href="projects.html" class="project-1"><article class="project"><img src="./image/project-1.jpeg" alt="Agency portfolio website preview" class="project-img" /><div class="project-info"><h4>Agency portfolio</h4><p>Live website</p></div></article></a>
+      <a href="projects.html" class="project-2"><article class="project"><img src="./image/project-2.jpeg" alt="QuickOrder NG project preview" class="project-img" /><div class="project-info"><h4>QuickOrder NG</h4><p>MVP development</p></div></article></a>
+      <a href="projects.html" class="project-3"><article class="project"><img src="./image/project-3.jpeg" alt="Backend API project preview" class="project-img" /><div class="project-info"><h4>Backend API work</h4><p>Node.js and Express</p></div></article></a>
+      <a href="projects.html" class="project-4"><article class="project"><img src="./image/project-4.jpeg" alt="Open-source contribution preview" class="project-img" /><div class="project-info"><h4>Open-source work</h4><p>Testing and code improvements</p></div></article></a>
+    </div>
+  </section>
 
-      <!-- single article -->
-     <div class="card">
-      <!-- front card -->
-      <div class="card-side card-front">
-        <img src="./image/project-4.jpeg" alt=""/>
-        <div class="card-info">
-          <h4>article title</h4>
-          <p>Lorem ipsum dolor sit amet consectetur 
-            adipisicing elit.
-            Magnam id dicta, dolores ratione possimus 
-            sed distinctio nihil a iusto hic.</p>
-        <div class="card-footer">
-          <img src="./image/image-1.jpg" alt="author img">
-          <p>7 min read</p>
-        </div>
-        </div>
-      </div>
-      <!-- card back -->
-       <div class="card-side card-back">
-       <button class="btn">read more</button>
-      </div>
-     </div>
-     <!-- end of single card -->
-   </div>
-</section>
-    <!--end of  blog -->
+  <section class="connect">
+    <video muted loop autoplay playsinline class="video-container" poster="./image/project-1.jpeg"><source src="./videos/connect.mp4" type="video/mp4" />Your browser does not support embedded video.</video>
+    <div class="video-banner">
+      <div class="section-title"><h2>let's work together</h2><div class="underline"></div></div>
+      <p class="video-text">I'm open to web development opportunities, collaborations, and projects where I can contribute across the frontend and backend.</p>
+      <a href="contact.html" class="btn">get in touch</a>
+    </div>
+  </section>
 
+  <section class="section timeline">
+    <div class="section-title"><h2>my journey</h2><div class="underline"></div></div>
+    <div class="section-center timeline-center">
+      <article class="timeline-item"><h4>2026 — building and contributing</h4><p>Continuing to grow as a full-stack developer through backend projects, open-source contributions, testing, and collaborative development.</p><span class="number">1</span></article>
+      <article class="timeline-item"><h4>2025 — degree completed</h4><p>Completed a B.Sc. (Ed.) in Physics at Aliko Dangote University of Science and Technology, graduating with a Second Class Upper (2:1).</p><span class="number">2</span></article>
+      <article class="timeline-item"><h4>Frontend to full-stack</h4><p>Built a foundation in HTML, CSS, and JavaScript, then expanded into Node.js, Express, MongoDB, APIs, and software testing.</p><span class="number">3</span></article>
+      <article class="timeline-item"><h4>2020 — university</h4><p>Started my university journey at Aliko Dangote University of Science and Technology and developed a growing interest in technology.</p><span class="number">4</span></article>
+    </div>
+  </section>
 
-    <!-- footer -->
-     <footer class="footer">
-      <!-- social icons-->
-          <ul class="social-icons">
-            <li><a href="#" class="social-icon">
-              <i class="fab fa-facebook"></i>
-            </a></li>
-
-            <li><a href="https://www.linkedin.com/in/tobi-isaac-24bab419a/" class="social-icon">
-              <i class="fab fa-linkedin"></i>
-            </a></li>
-
-            <li><a href="#" class="social-icon">
-              <i class="fab fa-squarespace"></i>
-            </a></li>
-
-            <li><a href="#" class="social-icon">
-              <i class="fab fa-instagram"></i>
-            </a></li>
-          </ul>
-      <p>&copy; <span id="date"></span> tobi adedoyin. all right reserved</p>
-     </footer>
-
-    <script src="./js/app.js"></script>
-  </body>
+  <footer class="footer">
+    <ul class="social-icons">
+      <li><a href="https://github.com/Adedoyinjr" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/tobi-isaac-24bab419a/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+    </ul>
+    <p>&copy; <span id="date"></span> Tobi Adedoyin. All rights reserved.</p>
+  </footer>
+  <script src="./js/app.js"></script>
+</body>
 </html>
