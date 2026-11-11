@@ -223,7 +223,7 @@ Navbar
     background: var(--clr-primary-10);
   }
   .nav-btn {
-    display: none;
+    display: block;
   }
   .nav-links {
     display: grid;
